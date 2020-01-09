@@ -2,7 +2,7 @@
   <div class="login-container">
 
     <!-- 导航栏 -->
-    <van-nav-bar title="登录" />
+    <van-nav-bar  title="登录" />
     <!-- 导航栏 -->
 
     <!-- 表单 -->
@@ -16,8 +16,8 @@
     <!-- /表单 -->
 
     <!-- 登录按钮 -->
-    <div class="login-btn-box">
-      <van-button type="info">登录</van-button>
+    <div class="login-btn-box login-btn-container">
+      <van-button type="info" class="login-btn">登录</van-button>
     </div>
     <!-- /登录按钮 -->
   </div>
@@ -46,5 +46,10 @@ export default {
       width: 100%;
     }
   }
+}
+.van-nav-bar{
+   color: #fff;
+  background-color: #3f9dfa;
+
 }
 </style>
